@@ -1,0 +1,31 @@
+/* ----
+h1{
+	background-color: black;
+}
+
+.header__navigation{
+	background: #008cba;
+	padding: 1rem 0;
+	margin: 2rem 0;
+	text-transform: uppercase;
+}
+
+.header__navigation--secondary{
+	@extend .header__navigation;
+	background: #dfe0e0;
+}
+
+*/
+
+ $colores: (
+	facebook: rgba(123, 123, 123, 1),
+	instagram: rgba (0, 0, 0, 1),
+	twitter: rgba (1, 1, 1, 1)
+	);
+
+@each $redsocial, $color in $colores{
+	.social--#{$redsocial}{
+		background-color: $color;
+	}
+}
+

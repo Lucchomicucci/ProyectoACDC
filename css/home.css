@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC&display=swap');
+
+.logoig{
+	font-size: 60px;
+	color: white;
+}
+/* ---------------------- Inicia Menu gral ---------------------- */
+
+body{
+	background: black;
+}
+
+header h1{
+	color: red;
+	font-size: 25px;
+	font-family: arial;
+}
+
+header nav h1{
+	font-family: "IM Fell English SC", sans serif;
+	font-size: 25px;
+	color: red;
+}
+
+.ppal li{
+	color: red;
+	font-size: 15px;
+	font-family: "IM Fell English SC", sans serif;
+	text-decoration: underline;
+}
+
+#menu{
+	color: white;
+	font-size: 22px;
+	font-family: "IM Fell English SC", sans serif;
+}
+
+
+.redessociales li{
+	color: red;
+	font-size: 20px;
+	font-family: arial;
+}
+
+/*------------------------ Fin Menu gral ----------------------- */
+
+
+/* --------------------- Diseño General ---------------------------- */
+
+footer{
+	background-color: black;
+
+}
+
+section.encabezadodepagina h1{
+	color: white;
+	font-size: 70px;
+	font-family: arial;
+	text-align: center;
+}
+
+li{
+	color: white;
+	font-size: 20px;
+	font-family: arial;
+}
+
+
+/*-------------------------- Fin Diseño General -------------------------*/
+
+/* ----------------------------- "INICIO" -----------------------------*/
+
+
+nav.inicial{
+	background-color: black;
+	opacity: 0.5;
+	width: 20%;
+	float: left;
+}
+
+section.socialmedia{
+	background-color: black;
+	opacity: 0.5;
+	width: 10%;
+	min-height: 10%;
+	float: left;
+	margin-left: 70%;
+}
+
+section.socialmedia a{
+	display: block;
+	opacity: 1;
+}
+
+
+body.inicio{
+		background-image: url(../imagenes/fondohome.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+header.inicioimg{
+		min-height: 550px;
+		overflow: auto;
+}
+
+
+header a{
+	color: red;
+	font-size: 20px
+}
+
+table.redessocialesinicio{
+	background: rgba(77,72,73, 0.5);
+}
+
+footer p{
+	color: red;
+}
+
+
+/* ------------------------- Fin seccion "INICIO" --------------------- */
+
+/*----------------------------- "DISCOGRAFIA" --------------------------- */
+
+#disco table td.nombredisco{
+	color: white;
+	font-size: 20px;
+	font-family: arial;
+	text-align: center;
+}
+
+table ul li{
+	color: #0033ff;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 18px;
+
+}
+
+/*-------------------------- Fin seccion "DISCOGRAFIA"--------------------- */
+
+
+/* ------------------------------- "CONTACTO" ---------------------------- */
+
+label{
+	color: white;
+	font-size: 15px;
+	font-family: arial;
+}
+
+/* --------------------------- Fin seccion "CONTACTO" ---------------------- */
